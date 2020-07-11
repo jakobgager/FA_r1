@@ -1,6 +1,7 @@
 /*
 A very simple rule
 */
+#include "farule1.hpp"
 #include <iostream>
 #include <string>
 #include <array>
