@@ -8,7 +8,7 @@ A very simple rule
 
 using namespace std;
 
-array<float,2> compute(const array<float,2> invec) {
+array<float,2> compute(const array<float,2> &invec) {
     cout << "DLL: Compute of FArule1\n";
     cout << "DLL: Input:\n";
     for (const float &i : invec) {

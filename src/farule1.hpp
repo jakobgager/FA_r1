@@ -9,7 +9,7 @@ extern "C" {
 #endif
 
 //declaration of compute
-std::array<float,2> compute(const std::array<float,2> invec);
+std::array<float,2> compute(const std::array<float,2> &invec);
 //declaration of identify
 std::string identify();
 
